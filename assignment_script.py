@@ -8,7 +8,7 @@ data["treatment"] = (data['version'] == 'gate_40').astype(int)
 
 data
 
-retention_obs = data["retention_7"].values
+retention_obs = data["retention_7"].values #change to retention_1 for other AB test
 
 
 with pm.Model() as model:
